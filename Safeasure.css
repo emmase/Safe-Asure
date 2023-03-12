@@ -23,6 +23,8 @@ h2  {
 h4  {
     font-size: 20px;
     color: black;
+    padding: 10px 80px;
+
 }
 h3  {
     color: white;
@@ -35,8 +37,9 @@ h6  {
 p   {
     font-size: 16px;
     color: black;
-    margin: 15px    0   20px    0;
+    margin: 0   0   20px    0;
     font-weight: 400;
+    padding: 0px 80px;
 
 }
 .section-p1 {
@@ -132,7 +135,7 @@ text-align: center;
 padding: 15px 15px;
 box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
 border: 1px solid black;
-border-radius: 4px;
+border-radius: 10px;
 margin: 15px 0;
 
 
@@ -141,7 +144,7 @@ margin: 15px 0;
 .ser-box img  {
     width: 300px;
     height: 220px;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 #services .ser-box button   {
     border-radius: 10px;
@@ -167,4 +170,74 @@ margin: 15px 0;
 #services .section-p1  {
     align-items: center;
     justify-content: space-between;
+}
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(Images/Spa.jpg);
+   
+}
+#banner h2  {
+    color: #FF00C9;
+}
+#banner h2 span {
+    color: black;
+}
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #A60079;
+
+}
+#newsletter .form   {
+    padding: 10px 80px;
+}
+#newsletter h4  {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+
+}
+#newsletter p  {
+    font-size: 14px;
+    font-weight: 400;
+    color: floralwhite;
+    padding: 0 80px;
+}
+#newsletter input   {
+    height: 3.125em;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+   
+
+}
+#newsletter .form .normal {
+    color: #FF00C9;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 14px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    width: 40%;
+    
+
+
+}
+#newsletter .form   {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
 }

@@ -7,6 +7,7 @@
     <title>Safe Asure</title>
     <link rel="stylesheet" href="Safeasure.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section id="header">
@@ -42,11 +43,7 @@
             the experience home - all spa products are available for purchase in the boutique. </p>
         
         
-        <button>Book Now</button>
-        <div class="icon">
-        <h4><i class="fa-solid fa-phone"> </i>0702270524/0773445720</h4>
-    </div>
-
+       
     
 
     </section>
@@ -224,6 +221,26 @@
 
 
     </section>
+    <section id="banner" class="section-m1">
+        <h1>Book now</h1>
+        <h2>Up to <span> 5% off</span> - All body care and facials booked for the weekend.</h2>
+        <H4>WhatsApp or Call.</H4>
+        <h4 style="font-size: 36px;"><i  class="fa fa-whatsapp" style="font-size:48px;color:#4dc247" <a href="https://api.whatsapp.com/send?phone=256702270524"></a></i>  0702270524|0773445720</h4>
+       <h4 style="font-size: 36px;"><i class="fa fa-phone" style="font: size 48px;color:rgb(0, 106, 255)"></i>   0702270524|0773445720</h4>
+
+
+    </section>
+    <section id="newsletter" class="section-p1" class="section-m1">
+        <div class="news-text">
+            <h4>Sign Up for our newsletter</h4>
+            <p>Get email updates about our latest beauty care offers.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+
+    </section>
     
         
 
@@ -235,5 +252,41 @@
 
 
     <script src="Safeasure.js"></script>
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?70939';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"Message Us",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"WATI",
+          "brandSubTitle":"Typically replies within an hour",
+          "brandImg":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+          "welcomeText":"Hi there!\nWelcome to SafeAsure Beauty Longue, how can we help you?",
+          "messageText":"Hello, I have a question about {{page_link}}",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"256702270524"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
 </body>
 </html>
