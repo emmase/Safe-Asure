@@ -35,11 +35,14 @@ h6  {
 
 }
 p   {
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     margin: 0   0   20px    0;
-    font-weight: 400;
+    font-weight: 300;
     padding: 0px 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
 
 }
 .section-p1 {
@@ -54,6 +57,7 @@ body    {
 }
 .logo   {
     width: 180px;
+    
 }
 #header {
     display: flex;
@@ -145,6 +149,12 @@ margin: 15px 0;
     width: 300px;
     height: 220px;
     border-radius: 10px;
+    
+}
+#services.ser-box img  .imag{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px
 }
 #services .ser-box button   {
     border-radius: 10px;
@@ -178,6 +188,7 @@ margin: 15px 0;
     align-items: center;
     text-align: center;
     background-image: url(Images/Spa.jpg);
+    
    
 }
 #banner h2  {
@@ -191,7 +202,8 @@ margin: 15px 0;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #A60079;
+    background-color: white;
+   
 
 }
 #newsletter .form   {
@@ -200,21 +212,21 @@ margin: 15px 0;
 #newsletter h4  {
     font-size: 22px;
     font-weight: 700;
-    color: white;
+    color: #A60079;
 
 }
 #newsletter p  {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    color: floralwhite;
-    padding: 0 80px;
+    color:#A60079;
+    /*padding: 0 80px;*/
 }
 #newsletter input   {
     height: 3.125em;
     padding: 0 1.25em;
     font-size: 14px;
     width: 100%;
-    border: 1px solid transparent;
+    border: 1px solid;
     border-radius: 4px;
     outline: none;
    
@@ -239,5 +251,83 @@ margin: 15px 0;
     display: flex;
     width: 50%;
     justify-content: space-between;
+
+}
+#newsletter   .fa {
+    padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px;
+  border-radius: 50%;
+  margin-left: 50px;
+  outline: none;
+ 
+}
+#newsletter   .fa:hover {
+    opacity: 0.7;
+}
+#newsletter  .news-text a {
+    margin-left: 80px; 
+    outline: none;
+}
+footer  .Copyright{
+    font-size: 14px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}
+.logo1 {
+    width: 180px;
+    
+
+}
+#footer h4{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 80px;
+    color: black;
+
+}
+#footer p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 80px;
+    margin: 0px 0 8px 0;
+    color:black;
+
+}
+footer  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+   
+}
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer  a{
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 2px 8px 0;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0px 80px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+footer  a:hover{
+    color: #A60079;
 
 }
