@@ -12,6 +12,15 @@ h1 {
     text-align: center;
     padding: 40px 0;
 }
+.welcome{
+    font-size: 46px;
+    line-height: 54px;
+    color: #FF00C9;
+    padding: 10px 80px;
+    margin: auto;
+   
+}
+
 h2  {
     font-size: 46px;
     line-height: 54px;
@@ -23,11 +32,15 @@ h2  {
 h4  {
     font-size: 20px;
     color: black;
-    padding: 10px 80px;
+    font-family: 'Josefin Sans', sans-serif;
+   
 
 }
 h3  {
-    color: white;
+    color: #A60079;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    
 }
 h6  {
     font-weight: 500;
@@ -104,6 +117,7 @@ body    {
     position: absolute;
     bottom: -4px;
     left: 20px;
+    
 
 }
 #hero   {
@@ -119,14 +133,23 @@ body    {
     flex-direction: column;
 
 }
-#hero button{
-    border-radius: 10px;
+.Explore{
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    color: black;
+    border-radius: 4px;
+    border: 0.5px solid #FF00C9;
+    font-size: 20px;
     background-color: white;
-    color: #FF00C9;
-    border: 10%  ;
-    padding: 10px 60px 10px 55px;
-    background-repeat: no-repeat;
-    font-weight: 800;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    height: 7%;
+    width: 15%;
+    margin-bottom: 25%;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 .section-p1 {
@@ -213,6 +236,7 @@ margin: 15px 0;
     font-size: 22px;
     font-weight: 700;
     color: #A60079;
+    padding: 10px 80px;
 
 }
 #newsletter p  {
@@ -329,5 +353,65 @@ footer  a{
 }
 footer  a:hover{
     color: #A60079;
+
+}
+#Container .Membership{
+background-color: black;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+height: 250px;
+padding-top: 80px;
+
+    
+}
+#Container .Membership h2{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+#membership-cards   {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+#membership-cards .cards img{
+   width: 50%;
+}
+.section-p1 .become{
+    padding: 10px;
+}
+.section-p1 .become h3{
+    padding: 10px;
+
+}
+.section-p1 .become h4{
+    padding: 10px;
+    font-style: italic;
+}
+.section-p1 .become .none{
+    font-style: normal;
+    
+}
+.section-p1 .become li{
+    padding-left: 10px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+
+}
+.section-p1 .become h5{
+    padding: 10px;
+
+}
+.section-p1 .terms h3{
+    padding: 10px;
+}
+.section-p1 .terms li{
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
 
 }
