@@ -33,6 +33,7 @@ h4  {
     font-size: 20px;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 80px;
    
 
 }
@@ -40,6 +41,7 @@ h3  {
     color: #A60079;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    padding: 10px 80px;
     
 }
 h6  {
@@ -368,6 +370,9 @@ padding-top: 80px;
     font-family: 'Josefin Sans', sans-serif;
     
 }
+#Container .Membership p{
+    color: #A60079;
+}
 #membership-cards   {
     display: flex;
     justify-content: space-between;
@@ -415,3 +420,90 @@ padding-top: 80px;
     font-weight: 300;
 
 }
+.section-p1 .become img{
+    padding: 10px;
+}
+#gift-cards .cards img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+#gifts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gifts .section-p1{
+    align-items: center;
+    justify-content: space-between;
+}
+#gifts .ser-box  {
+    width: 400%;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+    border-left: 3px solid#A60079 ;
+    padding: 40px;
+    position: relative;
+    margin-right: 20px;
+
+}
+#gifts .ser-box h5{
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+#gifts h3{
+    padding: 20px;
+}
+#gifts h4{
+    padding: 20px;
+    font-size: 20px;
+}
+#gifts h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px; 
+    padding: 20px;
+}
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details span{
+    font-size: 12px;
+    padding: 10px 80px;
+}
+#contact-details .details h3{
+    font-size: 24px;
+    line-height: 35px;
+    
+
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    
+   
+}
+#contact-details .details i{
+    font-size: 14px;
+    padding-left: 80px;
+    padding-right: 10px;
+   
+}
+#contact-details .details p{
+    font-size: 16px;
+    padding: 0;
+}
+/*#contact-details .map{
+    width: 20%;
+    height: 300px;
+}
+#contact-details .map iframe{
+    width: 200%;
+    height: 70%;
+}*/
