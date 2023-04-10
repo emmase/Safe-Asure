@@ -499,11 +499,87 @@ padding-top: 80px;
     font-size: 16px;
     padding: 0;
 }
-/*#contact-details .map{
-    width: 20%;
-    height: 300px;
+#about{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
 }
-#contact-details .map iframe{
-    width: 200%;
-    height: 70%;
+#about img{
+    width: 40%;
+    height: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+    
+
+#about h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #A60079;
+    font-size: 40px;
+    padding: 40px;
+   
+}
+#about h3{
+    color: black;
+    font-size: 26px;
+    padding: 40px;
+}
+#blog {
+    padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+#blog .blog-image{
+    width: 50%;
+    margin-right: 40%;
+}
+#blog img{
+    width: 400%;
+    height: 300px;
+    object-fit: cover;
+}
+/*#blog .blog-details{
+    width: 50%;
+    
 }*/
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: 600px;
+    position: relative;
+    padding-left: 80px;
+    transition: 0.03s;
+}
+#blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 8px;
+    right: -60px;
+}
+#blog .blog-details a:hover{
+    color: #A60079;
+}
+#blog .blog-details a:hover::after{
+    background-color: #A60079;
+}
+#blog .blog-box h1{
+    position: absolute;
+    top: -90px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 600px;
+    color: hsl(316, 49%, 35%);
+    z-index: -9;
+}
+
+
+
+
