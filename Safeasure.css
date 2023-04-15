@@ -163,7 +163,6 @@ height: auto;
 text-align: center;
 padding: 15px 15px;
 box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
-border: 1px solid black;
 border-radius: 10px;
 margin: 15px 0;
 
@@ -185,10 +184,12 @@ margin: 15px 0;
     border-radius: 10px;
     background-color: white;
     color: #FF00C9;
-    border: 10%  ;
+    border: 0  ;
     padding: 10px 60px 10px 55px;
     background-repeat: no-repeat;
-    font-weight: 800;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
 }
 #services .ser-box button:hover,
 #services .ser-box button.active {
