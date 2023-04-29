@@ -93,6 +93,13 @@ body    {
     justify-content: center;
 
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
 #navbar li {
     list-style: none;
     padding: 0 20px;
@@ -128,7 +135,7 @@ body    {
     width: 100%;
     background-position: 25% right 0;
     background-size: cover;
-    padding: 0 80px;
+    padding: 0px 80px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -405,6 +412,7 @@ padding-top: 80px;
     margin-left: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    
 
 }
 .section-p1 .become h5{
@@ -579,6 +587,64 @@ padding-top: 80px;
     font-weight: 600px;
     color: hsl(316, 49%, 35%);
     z-index: -9;
+}
+
+@media  (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0 ;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+        padding: 80px 0 0 10px;
+        transition: 0.03s;
+    
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: black;
+        font-size: 30px;
+    }
+    #close {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 30px;
+        display: initial;
+    }
+    #hero   {
+        /*background-image: url('images/home.JPG');*/
+        height: 70vh;
+        /*width: 100%;*/
+        background-repeat: no-repeat;
+        background-position: top 30px right 30px left 30px bottom 30px;
+        position: fixed;
+        /*background-size: cover;*/
+        padding: 0px 80px;
+        /*display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;*/
+    
+    }
+    
 }
 
 
